@@ -1,0 +1,36 @@
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\appsettings.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\DevOps Project Trivia App.staticwebassets.endpoints.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\DevOps Project Trivia App.exe
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\DevOps Project Trivia App.deps.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\DevOps Project Trivia App.runtimeconfig.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\DevOps Project Trivia App.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\DevOps Project Trivia App.pdb
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.csproj.AssemblyReference.cache
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.AssemblyInfo.cs
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\scopedcss\bundle\DevOps Project Trivia App.styles.css
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps P.4130FE2E.Up2Date
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\refint\DevOps Project Trivia App.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.pdb
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.genruntimeconfig.cache
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\ref\DevOps Project Trivia App.dll
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\scores.json
