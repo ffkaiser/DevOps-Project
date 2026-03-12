@@ -34,3 +34,4 @@ C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\
 C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.genruntimeconfig.cache
 C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\ref\DevOps Project Trivia App.dll
 C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\bin\Debug\net8.0\scores.json
+C:\Users\felip\source\repos\DevOps Project Trivia App\DevOps Project Trivia App\obj\Debug\net8.0\DevOps Project Trivia App.sourcelink.json

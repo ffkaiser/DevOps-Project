@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevOps Project Trivia App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d62f2bb30090851d9ebb41352c140bec892fc9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevOps Project Trivia App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevOps Project Trivia App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
