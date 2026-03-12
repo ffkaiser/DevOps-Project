@@ -4,9 +4,6 @@ using System.Text.Json;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-//////////////////////////////////////////////////
-// SESSION
-//////////////////////////////////////////////////
 
 app.Use(async (ctx, next) =>
 {
@@ -36,9 +33,6 @@ static string E(string? s) => HtmlEncoder.Default.Encode(s ?? "");
 static IResult Html(string html) =>
     Results.Content(html, "text/html; charset=utf-8");
 
-//////////////////////////////////////////////////
-// LAYOUT
-//////////////////////////////////////////////////
 
 static string Layout(string title, string body, string? username = null)
 {
@@ -75,9 +69,6 @@ __BODY__
                .Replace("__USER__", userLine);
 }
 
-//////////////////////////////////////////////////
-// HOME
-//////////////////////////////////////////////////
 
 app.MapGet("/", (HttpContext ctx) =>
 {
@@ -91,9 +82,6 @@ app.MapGet("/", (HttpContext ctx) =>
     return Html(Layout("Home", body, username));
 });
 
-//////////////////////////////////////////////////
-// LOGIN
-//////////////////////////////////////////////////
 
 app.MapGet("/login", () =>
 {
@@ -129,9 +117,6 @@ app.MapGet("/guest", (HttpContext ctx) =>
     return Results.Redirect("/menu");
 });
 
-//////////////////////////////////////////////////
-// MENU
-//////////////////////////////////////////////////
 
 app.MapGet("/menu", (HttpContext ctx) =>
 {
@@ -146,9 +131,6 @@ app.MapGet("/menu", (HttpContext ctx) =>
     return Html(Layout("Menu", body, username));
 });
 
-//////////////////////////////////////////////////
-// CATEGORIES
-//////////////////////////////////////////////////
 
 string[] categories = { "History", "Geography", "Mathematics", "General Knowledge" };
 
@@ -166,9 +148,7 @@ app.MapGet("/categories", (HttpContext ctx) =>
     return Html(Layout("Categories", body, username));
 });
 
-//////////////////////////////////////////////////
-// DIFFICULTY
-//////////////////////////////////////////////////
+
 
 app.MapGet("/difficulty/{category}", (HttpContext ctx, string category) =>
 {
@@ -183,9 +163,7 @@ app.MapGet("/difficulty/{category}", (HttpContext ctx, string category) =>
     return Html(Layout("Difficulty", body, username));
 });
 
-//////////////////////////////////////////////////
-// START QUIZ
-//////////////////////////////////////////////////
+
 
 app.MapGet("/start/{category}/{difficulty}", (HttpContext ctx, string category, string difficulty) =>
 {
@@ -193,9 +171,7 @@ app.MapGet("/start/{category}/{difficulty}", (HttpContext ctx, string category, 
     return Results.Redirect("/question");
 });
 
-//////////////////////////////////////////////////
-// SHOW QUESTION
-//////////////////////////////////////////////////
+
 
 app.MapGet("/question", (HttpContext ctx) =>
 {
@@ -217,9 +193,7 @@ app.MapGet("/question", (HttpContext ctx) =>
     return Html(Layout("Question", body, username));
 });
 
-//////////////////////////////////////////////////
-// ANSWER
-//////////////////////////////////////////////////
+
 
 app.MapPost("/question", async (HttpContext ctx) =>
 {
@@ -232,9 +206,7 @@ app.MapPost("/question", async (HttpContext ctx) =>
     return Results.Redirect("/question");
 });
 
-//////////////////////////////////////////////////
-// RESULT + REVIEW
-//////////////////////////////////////////////////
+
 
 app.MapGet("/result", (HttpContext ctx) =>
 {
@@ -259,9 +231,7 @@ app.MapGet("/result", (HttpContext ctx) =>
     return Html(Layout("Result", body, username));
 });
 
-//////////////////////////////////////////////////
-// SCORES
-//////////////////////////////////////////////////
+
 
 app.MapGet("/scores", (HttpContext ctx) =>
 {
@@ -277,9 +247,7 @@ app.MapGet("/scores", (HttpContext ctx) =>
     return Html(Layout("Scores", body, username));
 });
 
-//////////////////////////////////////////////////
-// LOGOUT
-//////////////////////////////////////////////////
+
 
 app.MapGet("/logout", (HttpContext ctx) =>
 {
@@ -290,9 +258,7 @@ app.MapGet("/logout", (HttpContext ctx) =>
 
 app.Run();
 
-//////////////////////////////////////////////////
-// DATA CLASSES
-//////////////////////////////////////////////////
+
 
 class QuizState
 {
@@ -355,9 +321,6 @@ class Score
     { User = u; Category = c; Points = p; Total = t; }
 }
 
-//////////////////////////////////////////////////
-// QUESTION BANK
-//////////////////////////////////////////////////
 
 static class QuestionBank
 {
